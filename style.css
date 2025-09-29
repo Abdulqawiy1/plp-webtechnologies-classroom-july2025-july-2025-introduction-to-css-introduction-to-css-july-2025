@@ -1,0 +1,79 @@
+.front{
+    font-size: 50px;
+    text-align: center;
+    color: red;
+}
+
+.p{
+    font-size: 20px;
+    text-align: center;
+    color:black;
+}
+
+.container{
+    border: 3px solid red;
+    padding: 10px;
+    width: 600px;
+    height: 200px;
+    margin: 10px auto;
+    background-color: wheat;
+    display: flex;
+
+}
+
+#nav{
+    background-color: brown;
+    padding: 10px;
+}
+
+#nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+}
+
+#nav a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.card{
+    border: 3px solid red;
+    margin: 20px;
+    width: 500px;
+    height: 170px;
+    background-color: whitesmoke;
+}
+
+.card h2{
+    text-align: center;
+    color: brown;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card p{
+    text-align: center;
+    color: brown;
+    font-size: 15px;
+}
+
+.card ol{
+    color: black;
+    font-size: 15px;
+}
+
+.btn{
+    background-color: brown;
+    border: none;
+    box-shadow: black;
+    color: white;
+    padding: 10px 20px;
+    margin: 15px auto;
+    display: block;
+    border-radius: 10px;
+}
